@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&& node server/server.js",
+    "build": "cd client && npm install && npm run build --prod",
+    "db:create": "cd server && sequelize-cli db:create",
+    "db:migrate": "cd server && sequelize-cli db:migrate",
+    "db:g:migration": "cd server && sequelize-cli migration:generate --name",
+    "db:g:seed": "cd server && sequelize-cli seed:generate --name",
+    "db:seeds:up": "cd server && sequelize-cli db:seed:all --debug",
+    "db:seeds:down": "cd server && sequelize-cli db:seed:undo --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@mui/material": "^5.0.0",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "find-config": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-pg-migrate": "^5.10.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}

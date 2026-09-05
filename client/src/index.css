@@ -1,0 +1,85 @@
+@import '~normalize.css';
+@import '~@blueprintjs/core/lib/css/blueprint.css';
+@import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
+
+body {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.auth-form {
+  margin-top: 10px;
+}
+
+.loader {
+  margin: 100px auto;
+}
+
+.user-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.login-background-gradient {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(to right, #be93c5, #7bc6cc);
+}
+
+/* ... */
+.loader {
+  margin: 100px auto;
+}
+
+a {
+  cursor: pointer;
+}
+
+.app-container {
+  min-height: 350px;
+}
+
+.btn-delete-user {
+  width: 40px;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+.nav {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 5%;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.centered-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  height: 90%;
+  width: 90%;
+}
+
+.navbar-nav{
+  width: 100%;
+}
