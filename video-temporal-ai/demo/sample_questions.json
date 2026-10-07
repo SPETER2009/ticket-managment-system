@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "category": "causal",
+    "question": "What happened right before the safety alarm?",
+    "description": "Tests causal reasoning — identify the triggering event"
+  },
+  {
+    "id": 2,
+    "category": "conditional",
+    "question": "Which person entered the restricted area after the delivery truck arrived?",
+    "description": "Tests conditional ordering — requires understanding of two separate events"
+  },
+  {
+    "id": 3,
+    "category": "count",
+    "question": "How many times did the machine stop unexpectedly?",
+    "description": "Tests event counting over time"
+  },
+  {
+    "id": 4,
+    "category": "duration",
+    "question": "Find every object that sat there untouched for more than 2 minutes.",
+    "description": "Tests stationary detection with duration threshold"
+  },
+  {
+    "id": 5,
+    "category": "order",
+    "question": "What was the first event that happened in the video?",
+    "description": "Tests basic temporal ordering"
+  },
+  {
+    "id": 6,
+    "category": "order",
+    "question": "List all events in chronological order with their timestamps.",
+    "description": "Tests full timeline reconstruction"
+  },
+  {
+    "id": 7,
+    "category": "tracking",
+    "question": "Did the same person who entered at the beginning also appear later?",
+    "description": "Tests object re-identification across disappearance"
+  },
+  {
+    "id": 8,
+    "category": "duration",
+    "question": "How long was the delivery truck visible in the video?",
+    "description": "Tests duration measurement for a specific tracked object"
+  },
+  {
+    "id": 9,
+    "category": "count",
+    "question": "How many people entered the frame in total?",
+    "description": "Tests person counting across full video"
+  },
+  {
+    "id": 10,
+    "category": "causal",
+    "question": "What happened immediately after the person left the restricted zone?",
+    "description": "Tests post-event causal reasoning"
+  }
+]

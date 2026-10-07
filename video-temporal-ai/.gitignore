@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment / secrets
+.env
+!.env.example
+
+# Temp uploads & model weights
+temp_uploads/
+*.pt
+!yolov8n.pt
+
+# Large video files (add your own demo separately)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+demo/*.mp4
+demo/*.avi
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
